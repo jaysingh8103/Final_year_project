@@ -1,6 +1,6 @@
 export interface LatLng {
-  lat: number;
-  lng: number;
+  lat: 28.6139;
+  lng: 77.2090;
 }
 
 export interface UserAddress {

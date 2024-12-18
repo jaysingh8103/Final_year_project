@@ -1,19 +1,27 @@
 [
   {
     "id": "hot-americano",
-    "displayName": "Americano",
+    "displayName": "Coffee Beans",
     "type": "hot",
-    "price": 500,
+    "price": 400,
     "description": "A classic hot coffee made with a shot of espresso and hot water.",
     "image": "/images/coffee/beans1.webp"
   },
   {
     "id": "hot-cappuccino",
-    "displayName": "Cappuccino",
+    "displayName": "Whiskey Flaver Coffee beans",
     "type": "hot",
     "price": 300,
     "description": "A rich and frothy coffee with equal parts of espresso, steamed milk, and foam.",
-    "image": "/images/coffee/hot-cappuccino.jpeg"
+    "image": "/images/coffee/beans2.webp"
+  },
+  {
+    "id": "hot-cappuccino",
+    "displayName": "Pineapple Coffee beans",
+    "type": "hot",
+    "price": 300,
+    "description": "A rich and frothy coffee with equal parts of espresso, steamed milk, and foam.",
+    "image": "/images/coffee/beans3.webp"
   },
   {
     "id": "hot-caramel-macchiato",

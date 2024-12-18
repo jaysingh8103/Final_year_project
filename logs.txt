@@ -1,0 +1,26 @@
+
+==> Audit <==
+|-----------|------|----------|--------|---------|---------------------|---------------------|
+|  Command  | Args | Profile  |  User  | Version |     Start Time      |      End Time       |
+|-----------|------|----------|--------|---------|---------------------|---------------------|
+| start     |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:08 UTC |                     |
+| dashboard |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:27 UTC |                     |
+| start     |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:27 UTC |                     |
+| start     |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:38 UTC | 15 Dec 24 07:39 UTC |
+| dashboard |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:39 UTC |                     |
+| service   | jay  | minikube | jaypal | v1.34.0 | 15 Dec 24 07:47 UTC |                     |
+| stop      |      | minikube | jaypal | v1.34.0 | 15 Dec 24 07:52 UTC | 15 Dec 24 07:53 UTC |
+| start     |      | minikube | jaypal | v1.34.0 | 16 Dec 24 10:17 UTC | 16 Dec 24 10:17 UTC |
+| dashboard |      | minikube | jaypal | v1.34.0 | 16 Dec 24 10:18 UTC |                     |
+| start     |      | minikube | jaypal | v1.34.0 | 17 Dec 24 17:07 UTC |                     |
+| start     |      | minikube | jaypal | v1.34.0 | 17 Dec 24 17:11 UTC |                     |
+|-----------|------|----------|--------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2024/12/17 17:22:15
+Running on machine: JAYPALsPC
+Binary: Built with gc go1.22.5 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+
+

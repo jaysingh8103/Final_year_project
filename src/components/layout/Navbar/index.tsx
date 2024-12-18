@@ -58,12 +58,12 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="flex flex-row items-center space-x-4 w-auto">
-            <Link
+            {/* <Link
               to={user?.name ? '/profile' : '/login'}
               className="hidden sm:block text-gray-500 hover:text-primary font-semibold hover:underline"
             >
               {user?.name || 'Login'}
-            </Link>
+            </Link> */}
 
             <button
               onClick={handleCartClick}

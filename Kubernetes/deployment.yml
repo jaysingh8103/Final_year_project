@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: licarobeans
+  labels:
+    app: licarobeans
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: licarobeans
+  template:
+    metadata:
+      labels:
+        app: licarobeans
+    spec:
+      containers:
+      - name: licarobeans
+        image: jaysingh8103/licarobeans1:02
+        ports:
+        - containerPort: 5173

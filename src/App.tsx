@@ -1,4 +1,4 @@
-import { BrowserRouter, unstable_useFutureFlag } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'; 
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import AuthProvider from './hooks/provider/AuthProvider';
 import ProductProvider from './hooks/provider/ProductProvider';
@@ -8,12 +8,6 @@ import UserAddressProvider from './hooks/provider/UserAddressProvider.tsx';
 import { GOOGLE_OAUTH_CLIENT_ID } from './constants/constants.ts';
 import ScrollToTop from './components/shared/ScrollToTop.tsx';
 import Router from './Router.tsx';
-
-// Enable React Router v7 future flags
-unstable_useFutureFlag({
-  v7_startTransition: true,
-  v7_relativeSplatPath: true,
-});
 
 export default function App() {
   return (
